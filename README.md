@@ -70,10 +70,13 @@ http://{host}:{port}/products/:id
 
 Body
 newPrice: number
-Example
+
+#### Example
+```
 {
     newPrice: 12.50
 }
+```
 
 ### Run proyect
 
