@@ -62,6 +62,19 @@ Example of an API in NestJs and React frontent. the frontend shows a product lis
 }
 ```
 
+### Update value
+
+Endpoint
+PUT
+http://{host}:{port}/products/:id
+
+Body
+newPrice: number
+Example
+{
+    newPrice: 12.50
+}
+
 ### Run proyect
 
 backend
@@ -77,3 +90,6 @@ cd frontend
 npm run dev
 ```
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
